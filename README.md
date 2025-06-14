@@ -128,7 +128,7 @@ The goal is to create an API that determines which loan types a customer is elig
 git clone https://github.com/seu-usuario/customer-loans-api.git
 
 # Acesse o diretório | Go to project folder
-cd customer-loans-api
+cd loans
 
 # Execute o projeto | Run the project
 ./mvnw spring-boot:run
