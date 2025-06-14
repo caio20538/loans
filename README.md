@@ -159,19 +159,22 @@ src
 └── main
     └── java
         └── com
-            └── yourcompany
-                └── customerloans
+            └── caio
+                └── loans
                     ├── controller
-                    ├── model
+                      └── dto
+                        ├── response
+                        └── request
+                    ├── domain
                     ├── service
-                    └── CustomerLoansApplication.java
+                    └── LoansApplication.java
 └── test
     └── java
         └── com
-            └── yourcompany
-                └── customerloans
-                    ├── service
-                    └── controller
+            └── caio
+                └── loans
+                    └── domain
+                      └── factory
 ```
 ---
 
