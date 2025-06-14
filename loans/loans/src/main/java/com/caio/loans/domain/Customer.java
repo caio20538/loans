@@ -27,7 +27,7 @@ public class Customer {
         return income >= minValue && income <= maxValue;
     }
 
-    public boolean isAgeLowerThen(int age){
+    public boolean isAgeLowerThan(int age){
         return this.age < age;
     }
 

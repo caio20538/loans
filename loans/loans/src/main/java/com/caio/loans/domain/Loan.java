@@ -51,7 +51,7 @@ public class Loan {
             return true;
 
         return customer.isIncomeBetween(MIN_LOAN, MAX_LOAN)
-                && customer.isAgeLowerThen(MIN_AGE)
+                && customer.isAgeLowerThan(MIN_AGE)
                 && customer.isFromLocation(LOCATION);
     }
 }
